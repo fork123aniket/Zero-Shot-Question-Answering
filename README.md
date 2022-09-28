@@ -1,4 +1,4 @@
-# Zero-Shot-Question-Answering
+# Zero-Shot Question Answering
 
 This repository provides a simple code to implement zero-shot learning approach for Question Answering task.
 
