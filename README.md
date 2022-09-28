@@ -10,7 +10,7 @@ This repository provides a simple code to implement zero-shot learning approach 
 
 ## Usage
 
-The Question Answering model (QAModel) is defined inside `Zero_Shot_QA_Model.py` file. It loads the tokenizer and the language model in the initializer method. The `get_answer()` method goes over all available answer options for a given question and computes ***log-likelihood*** as the score for each option. It returns the option with the highest score. In addition to this, `Inference.py` file is also made available with a few examples of how this implementation is being used for Question Answering task in zero-shot manner.
+The Question Answering model (***QAModel***) is defined inside `Zero_Shot_QA_Model.py` file. It loads the tokenizer and the language model in the initializer method. The `get_answer()` method goes over all available answer options for a given question and computes ***log-likelihood*** as the score for each option. It returns the option with the highest score. In addition to this, `Inference.py` file is also made available with a few examples of how this implementation is being used for Question Answering task in zero-shot manner.
 
 ## Results
 
