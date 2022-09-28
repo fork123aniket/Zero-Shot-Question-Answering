@@ -1,10 +1,12 @@
 from Zero_Shot_QA_Model import QAModel
 
-data = [{"question": "Where is capital of France?", "options": ["London", "Berlin", "Paris", "Lyon"]},
-{"question": "who is best known for developing the theory of relativity?",
- "options": ["Albert Einstein", "Isaac Newton", "Stephen Hawking", "Max Planck"]},
-{"question": "Who is CEO of Tesla?",
- "options": ["Bill Gates", "Elon Musk", "Steve Jobs", "Tim cook"]}]
+data = [{"question": "Where is capital of France?", 
+         "options": ["London", "Berlin", "Paris", "Lyon"]}, 
+        {"question": "Who is best known for developing the theory of relativity?", 
+         "options": ["Albert Einstein", "Isaac Newton", "Stephen Hawking", "Max Planck"]}, 
+        {"question": "Who is CEO of Tesla?", 
+         "options": ["Bill Gates", "Elon Musk", "Steve Jobs", "Tim cook"]}]
+
 qa_model = QAModel()
 for d in data:
     answer = qa_model.get_answer(d['question'], d['options'])
