@@ -1,4 +1,4 @@
-from transformers import  AutoTokenizer, OPTForCausalLM
+from transformers import AutoTokenizer, OPTForCausalLM
 import torch
 import numpy as np
 
