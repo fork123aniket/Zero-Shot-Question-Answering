@@ -1,6 +1,6 @@
 # Zero-Shot Question Answering
 
-This repository provides a simple code to implement zero-shot learning approach for Question Answering task.
+This repository provides a simple code to implement zero-shot learning approach for Question Answering task. For each question `q` with available answer options `a`, `b`, and `c`, it computes each option's score as the negative log-likelihood under the language model conditioned on the question. More formally, score(a) = P<sub>m</sub>(a|q); score(b) = P<sub>m</sub>(b|q); and score(c) = P<sub>m</sub>(c|q). It then returns the option with the highest score as the most probable answer to the question `q`.
 
 ## Setup Environment Requirements
 
